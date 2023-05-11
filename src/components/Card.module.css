@@ -1,0 +1,62 @@
+.card {
+  background: red;
+  padding: 1.5rem 2rem;
+  border-radius: .5rem;
+}
+
+.cardHeader {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.cardAvatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100rem;
+  border: 2px solid hsl(var(--clr-secondary-100) / .5);
+}
+
+.cardName {
+  font-size: var(--fs-md);
+}
+
+.cardVerified {
+  font-size: var(--fs-sm);
+  opacity: .5;
+}
+
+.cardTitle {
+  font-size: var(--fs-lg);
+  line-height: var(--lh-200);
+  margin-bottom: 1rem;
+  font-weight: var(--fw-bold);
+}
+
+.cardBody {
+  font-size: var(--fs-md);
+  line-height: var(--lh-400);
+  opacity: .7;
+}
+
+.primary {
+  background: hsl(var(--clr-primary));
+  color: hsl(var(--clr-secondary-100));
+}
+
+.secondary {
+  background: hsl(var(--clr-secondary-600));
+  color: hsl(var(--clr-secondary-100));
+}
+
+.light {
+  background: hsl(var(--clr-secondary-100));
+  color: hsl(var(--clr-secondary-600));
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.dark {
+  background: hsl(var(--clr-secondary-900));
+  color: hsl(var(--clr-secondary-100));
+}
